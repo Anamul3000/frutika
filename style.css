@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: min(90%,85rem);
+    margin-inline: auto;
+}
+
+
+
+.btn{
+    padding: 1rem 1rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    font-size: 18px;
+    color: rgb(0, 103, 7);
+}
+
+header{
+    background-color: #e33f09bb;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container img{
+    width: min(80px);
+}
+
+nav .container ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav .container ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font: 24px "jost",system-ui;
+    font-weight: 600;
+}
+
+.hero{
+    background: linear-gradient(to left, rgba(241, 91, 5, 0.527), rgba(241, 91, 5, 0.527)), url(./img/pexels-riki-risnandar-2265311-4023132.jpg) center center/cover no-repeat;
+    height: min(90vh);
+}
+.hero .container{
+    position: relative;
+}
+.hero .container .card{
+    text-align: center;
+    background-color: #fa3909fe;
+    width: min(45rem);
+    border-radius: 26px;
+    padding: 2rem 2rem;
+    position: absolute;
+    top: 7rem ;
+    left: 20rem;
+}
+
+.hero .container .card img{
+    width: min(20rem);
+    border-radius: 24px;
+    box-shadow: 0 5px 5px 0 #000000;
+}
+
+.hero .container .card h1{
+    font: 60px "gilda display",serif;
+    color: rgb(255, 255, 255);
+    padding: 4rem 0;
+}
+
+.product{
+    background-color: #e33f09bb;
+    padding: 8rem 0;
+}
+
+.product .container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.product .container .card{
+    background-color: #fa3909fe;
+    padding: 2rem 4rem;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.product .container .card h2{
+    padding: 2rem 0;
+    font: 34px "gilda display",serif ;
+    font-weight: 700;
+    color: #ffffff; 
+  
+}
+
+.about{
+    padding: 8rem 0;
+    background-color: #e6450095;
+}
+
+.about .container {
+    text-align: center;
+}
+
+.about .container h3{
+    font: 80px "jost",system-ui;
+    color:#ffffff;
+
+}
+.about .container .icon{
+    font-size: 40px;
+    padding: 1rem 0;
+    color: #ffffff;
+}
+.about .container p{
+    font: 30px "gilda display",system-ui;
+    padding-bottom: 2rem;
+    color: #ffffff;
+}
+
+footer{
+    padding: 4rem 0;
+    background:linear-gradient(to left, rgba(220, 51, 9, 0.874), rgba(220, 51, 9, 0.874)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRd6UkY5Zd399A0Ff6jDtPZEJ4zIfl_u5nDg&s)  center/cover no-repeat;
+
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .left{
+    font-size: 40px;
+    display: flex;
+    gap: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+footer .container .right h5{
+ 
+    font-size: 32px;
+    color: #ffffff;
+    padding-bottom: 2rem;
+
+}
+
+footer .container .right input{
+    padding: 1rem 4rem;
+    border-radius: 48px;
+}
+
+.btn_out{
+    position: relative;
+    left: -5rem;
+    box-shadow: 0 2px 2px 0 rgb(32, 25, 25);
+    padding: 6px 6px;
+    border: none;
+    background-color: e6450095;
+    border-radius: 35px;
+    font-size: 18px;
+    color: rgb(0, 103, 7);
+}
